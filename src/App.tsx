@@ -1,9 +1,11 @@
-import AppRouters from './routers/AppRouters';
+import './App.css';
 
-export default function App() {
+function App() {
   return (
     <div>
-      <AppRouters />
+      <p className="text-red-500">Hello world</p>
     </div>
   );
 }
+
+export default App;
